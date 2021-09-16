@@ -3,5 +3,32 @@
 html,
 body {
   margin: 0;
+  width: 100vw;
 }
 
+.hero{
+  background-image: url(https://ex.smnarnold.com/git/radars-vivants/fillette-de-face.jpeg);
+  background-size: 100vw;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-self:center ;
+  color:white;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+video{
+  width: 100%;
+}
